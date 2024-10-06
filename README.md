@@ -15,7 +15,7 @@ There are two different ways to begin using decipher, depending on your preferen
 * [`Manual`](#manual)
 
 ### Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dsymbol/decipher/blob/main/notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/salvprest/decipher/blob/mod-work/notebook.ipynb)
 
 Notes:
 - Requires a (free) Google account
