@@ -11,7 +11,7 @@ setup(
         'tqdm',
         'gradio',
         'ffutils',
-        'stable-ts==2.17.3',
+        'stable-ts',
     ],
     packages=find_packages(),
     entry_points={
