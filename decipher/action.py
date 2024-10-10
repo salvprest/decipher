@@ -36,9 +36,10 @@ def audio_to_srt(
         device = "cpu"
     print(f"{device.upper()} is being used for this transcription.")
 
-    model = stable_whisper.load_hf_whisper(model, device=device)
+    model = stable_whisper.load_model(model, device=device)
+    #model = stable_whisper.load_hf_whisper(model, device=device)
     result = model.transcribe(
-        audio_file, language=language, task=task, batch_size=batch_size
+        audio_file, language=language, task=task#, batch_size=batch_size
     )
     result.to_srt_vtt(temp_srt, word_level=False)
 
